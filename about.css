@@ -313,9 +313,14 @@ header {
       }
   }
 
+
+
   .timeline__item-body-content img {
+	margin-top: 10px;
     width: 100%; /* A kép szélessége megegyezik a szövegdoboz szélességével */
     height: auto; /* A kép magassága automatikusan beállítódik, hogy megőrizze az eredeti arányait */
+	border-radius: 10px; /* Lekerekített sarkok */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
