@@ -307,11 +307,16 @@ header {
 
   
 
-@media (max-width: 1091px) {
+@media (min-width: 1091px) {
     body {
         padding-top:100px; /* Adjust this value to match the height of your header */
       }
   }
+
+  .timeline__item-body-content img {
+    width: 100%; /* A kép szélessége megegyezik a szövegdoboz szélességével */
+    height: auto; /* A kép magassága automatikusan beállítódik, hogy megőrizze az eredeti arányait */
+}
 
 
 
