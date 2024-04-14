@@ -241,4 +241,10 @@ body {
     transform: translateY(-50%);
   }
 }
-  
+
+@media screen and (max-height: 900px) {
+  body {
+    margin-top: 50px;
+  }
+}
+
